@@ -1,6 +1,6 @@
 # desafio_automacao_api
 
-**Desafio de Automação de Testes de API*
+**Desafio de Automação de Testes de API**
 ***
 
 Agora é a hora da verdade! Queremos ver você mandar bem nos testes automatizados. Nesse desafio, os objetivos são desenvolver testes baseados nos cenários abaixo, utilizando o serviço que está no link:
