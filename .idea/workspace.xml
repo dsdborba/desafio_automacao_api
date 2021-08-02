@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ceps.properties" afterDir="false" />
-    </list>
+    <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="primeiro upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +34,14 @@
       <option name="presentableId" value="Default" />
       <updated>1627938855204</updated>
     </task>
+    <task id="LOCAL-00001" summary="primeiro upload">
+      <created>1627939353228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627939353228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -50,5 +54,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiro upload" />
   </component>
 </project>
