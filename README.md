@@ -23,3 +23,8 @@ Agora é a hora da verdade! Queremos ver você mandar bem nos testes automatizad
 * Extras:
 1) Criar um cenário que verifique o retorno do serviço abaixo: URL: https://viacep.com.br/ws/RS/Gravatai/Barroso/json/
 ***
+Tecnologias Utilizadas
+* Java (Versão 1.8)
+* JUnit5 (Versão 5.7.1)
+* Maven (Gerenciador do IntelliJ IDE)
+* IntelliJ IDE (Versão 2020.1.2)
