@@ -5,20 +5,22 @@ Agora é a hora da verdade! Queremos ver você mandar bem nos testes automatizad
 
 *URL: https://viacep.com.br/ws/91060900/json/*
 
-* Cenário: Consulta CEP valido
+* Cenário 1: Consulta CEP valido
 * Dado que o usuário inseri um CEP válido
 * Quando o serviço é consultado
 * Então é retornado o CEP, logradouro, complemento, bairro, localidade, uf e ibge.
 
-*Cenário:* Consulta CEP inexistente
-*Dado que* o usuário inseri um CEP que não exista na base dos Correios
-*Quando* o serviço é consultado
-*Então* é retornada um atributo erro
+* Cenário 2: Consulta CEP inexistente
+* Dado que* o usuário inseri um CEP que não exista na base dos Correios
+* Quando* o serviço é consultado
+* Então* é retornada um atributo erro
 
-*Cenário:* Consulta CEP com formato inválido
-*Dado* que o usuário inseri um CEP com formato inválido
-*Quando* o serviço é consultado
-*Então* é retornado uma mensagem de erro
+* Cenário: 3 Consulta CEP com formato inválido
+* Dado* que o usuário inseri um CEP com formato inválido
+* Quando* o serviço é consultado
+* Então* é retornado uma mensagem de erro
 
-*Extras:*
+* Extras:
 1) Criar um cenário que verifique o retorno do serviço abaixo: URL: https://viacep.com.br/ws/RS/Gravatai/Barroso/json/
+
+***
