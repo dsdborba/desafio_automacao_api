@@ -1,5 +1,3 @@
-# desafio_automacao_api
-
 **Desafio de Automação de Testes de API**
 ***
 
@@ -7,10 +5,10 @@ Agora é a hora da verdade! Queremos ver você mandar bem nos testes automatizad
 
 *URL: https://viacep.com.br/ws/91060900/json/*
 
-*Cenário: Consulta CEP valido
-*Dado que o usuário inseri um CEP válido
-*Quando o serviço é consultado
-*Então é retornado o CEP, logradouro, complemento, bairro, localidade, uf e ibge.
+* Cenário: Consulta CEP valido
+* Dado que o usuário inseri um CEP válido
+* Quando o serviço é consultado
+* Então é retornado o CEP, logradouro, complemento, bairro, localidade, uf e ibge.
 
 *Cenário:* Consulta CEP inexistente
 *Dado que* o usuário inseri um CEP que não exista na base dos Correios
