@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/ConsultaCepValido.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/Endereco.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/SimpleBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/TesteCepInexistente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/TesteCepValido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
