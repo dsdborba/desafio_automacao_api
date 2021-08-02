@@ -27,4 +27,4 @@ Agora é a hora da verdade! Queremos ver você mandar bem nos testes automatizad
 * Java (Versão 1.8)
 * JUnit5 (Versão 5.7.1)
 * Maven (Gerenciador do IntelliJ IDE)
-* IntelliJ IDE (Versão 2020.1.2)
+* IntelliJ IDE (Versão 2021.1.2)
