@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="primeiro upload">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/ConsultaCepValido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/SimpleBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/TesteCepValido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/Auxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDeEnderecos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPInexistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPInvalido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPValido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/TesteExtra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/ConsultaCepValido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/SimpleBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ceps.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TesteCepValido.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +49,27 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/testng/testng/7.4.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diogo.borba\Documents\GitHub\desafio_automacao_api\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diogo.borba\Documents\GitHub\desafio_automacao_api\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="TestBase" />
       <recent name="TestCases" />
+      <recent name="TestBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TesteCepValido.simpleRequest">
-    <configuration name="TesteCepValido" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CEPInexistente">
+    <configuration name="CEPInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +78,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.TesteCepValido" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInexistente" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -72,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCepValido.simpleRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -81,9 +95,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.TesteCepValido" />
-      <option name="METHOD_NAME" value="simpleRequest" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInvalido" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CEPInvalido.ConsultaCEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="desafio_automacao_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInvalido" />
+      <option name="METHOD_NAME" value="ConsultaCEPInvalido" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CEPValido" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="desafio_automacao_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPValido" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteExtra" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="desafio_automacao_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.TesteExtra" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -92,8 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TesteCepValido.simpleRequest" />
-        <item itemvalue="TestNG.TesteCepValido" />
+        <item itemvalue="TestNG.CEPInexistente" />
+        <item itemvalue="TestNG.TesteExtra" />
+        <item itemvalue="TestNG.CEPValido" />
+        <item itemvalue="TestNG.ConsultaCEPInvalidoTestCase" />
+        <item itemvalue="TestNG.CEPInvalido.ConsultaCEPInvalido" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627939808118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primeiro upload">
+      <created>1627943617949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627943617949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
