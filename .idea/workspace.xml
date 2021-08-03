@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="primeiro upload">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/Auxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDeEnderecos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPInexistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPInvalido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPValido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/TesteExtra.java" afterDir="false" />
+    <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="&quot;3 exercícios resolvidos&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/ConsultaCepValido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/SimpleBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ceps.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TesteCepValido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/CEPInexistente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +57,7 @@
       <recent name="TestBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CEPInexistente">
+  <component name="RunManager" selected="TestNG.TesteExtra">
     <configuration name="CEPInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
@@ -80,6 +69,24 @@
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.CEPInexistente" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CEPInexistente.ConsultaCEPInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="desafio_automacao_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInexistente" />
+      <option name="METHOD_NAME" value="ConsultaCEPInexistente" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,25 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CEPInvalido.ConsultaCEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="desafio_automacao_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInvalido" />
-      <option name="METHOD_NAME" value="ConsultaCEPInvalido" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CEPValido" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CEPValido.testaCEPvalido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +120,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.CEPValido" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testaCEPvalido" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CEPInexistente" />
         <item itemvalue="TestNG.TesteExtra" />
-        <item itemvalue="TestNG.CEPValido" />
+        <item itemvalue="TestNG.CEPValido.testaCEPvalido" />
         <item itemvalue="TestNG.ConsultaCEPInvalidoTestCase" />
-        <item itemvalue="TestNG.CEPInvalido.ConsultaCEPInvalido" />
+        <item itemvalue="TestNG.CEPInexistente.ConsultaCEPInexistente" />
+        <item itemvalue="TestNG.CEPInexistente" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627943617949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;3 exercícios resolvidos&quot;">
+      <created>1627996800174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627996800174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro upload" />
+    <MESSAGE value="&quot;3 exercícios resolvidos&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;3 exercícios resolvidos&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
