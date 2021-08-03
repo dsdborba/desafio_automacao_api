@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="&quot;3 exercícios resolvidos&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/CEPInexistente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/CEPInexistente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="TestBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TesteExtra">
+  <component name="RunManager" selected="TestNG.CEPValido">
     <configuration name="CEPInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
@@ -93,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CEPValido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +102,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.CEPInvalido" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPValido" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TesteExtra" />
-        <item itemvalue="TestNG.CEPValido.testaCEPvalido" />
-        <item itemvalue="TestNG.ConsultaCEPInvalidoTestCase" />
+        <item itemvalue="TestNG.CEPValido" />
         <item itemvalue="TestNG.CEPInexistente.ConsultaCEPInexistente" />
         <item itemvalue="TestNG.CEPInexistente" />
+        <item itemvalue="TestNG.TesteExtra" />
+        <item itemvalue="TestNG.CEPValido.testaCEPvalido" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627996800174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;3 exercícios resolvidos&quot;">
+      <created>1627997023570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627997023570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
