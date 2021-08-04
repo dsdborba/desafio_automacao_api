@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48f7b80a-f717-4c7f-b727-f2fbff303e8b" name="Default Changelist" comment="&quot;desafio finalizado&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TesteExtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Extra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDeEnderecos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase/BuscaDeEnderecos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="TestBase" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CEPInexistente.ConsultaCEPInexistente">
+  <component name="RunManager" selected="TestNG.CEPValido">
     <configuration name="CEPInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
@@ -94,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CEPInvalido.ConsultaCEPInvalido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +104,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.CEPInvalido" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="ConsultaCEPInvalido" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extra.RetornaInformacoesDaAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CEPValido.testaCEPvalido" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="desafio_automacao_api" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Extra" />
-      <option name="METHOD_NAME" value="RetornaInformacoesDaAPI" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.CEPValido" />
+      <option name="METHOD_NAME" value="testaCEPvalido" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CEPInexistente.ConsultaCEPInexistente" />
-        <item itemvalue="TestNG.CEPInvalido" />
         <item itemvalue="TestNG.CEPValido" />
-        <item itemvalue="TestNG.TesteExtra.RetornaInformacoesDaAPI" />
+        <item itemvalue="TestNG.CEPInvalido.ConsultaCEPInvalido" />
         <item itemvalue="TestNG.CEPInexistente" />
+        <item itemvalue="TestNG.CEPValido.testaCEPvalido" />
+        <item itemvalue="TestNG.CEPInexistente.ConsultaCEPInexistente" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628008909399</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;desafio finalizado&quot;">
+      <created>1628078066699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628078066699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
