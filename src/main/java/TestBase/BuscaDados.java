@@ -37,9 +37,11 @@ public class BuscaDados {
                     .when()
                     .get(links.getProperty("apiExtra"))
                     .then()
+                    .log().all()
                     .extract()
                     .jsonPath()
                     .getList("$", Endereco.class);
+
         }catch(Exception e) {
             return endereco;
         }
